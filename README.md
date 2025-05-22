@@ -1,2 +1,3 @@
-# interactive_stripes
-Interactive Climate Stripes using Altair
+# Interactive Climate Stripes using Altair
+
+<iframe src="climate_stripes.html"></iframe>

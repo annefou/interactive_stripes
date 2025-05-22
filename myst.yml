@@ -1,0 +1,44 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ea3ac578-ab0a-47c8-a10a-9d06678a9450
+  title: Interactive Climate Stripes
+  short_title: with Altair
+  abstract: Notebook to generate climate stripes
+  subject: template
+  keywords:
+    - Modelling
+    - Python
+  thumbnail: static/logo.png
+  requirements:
+    - environment.yml
+  github: https://github.com/annefou/interactive_stripes 
+  jupyter:
+    binder:
+      repo: FAIR2Adapt/case-study-template
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2025-05-16
+  toc:
+    - file: README.md
+    - file: climate_stripes.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: climate_stripes.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v2.0.0
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
+  options:
+    hide_toc: true
+    logo: static/logo.png

@@ -1,4 +1,4 @@
-name: myenv
+name: sciencelive
 channels:
   - conda-forge
   - nodefaults
